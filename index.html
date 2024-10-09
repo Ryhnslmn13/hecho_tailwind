@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hechoshop</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="shadow-md fixed w-full">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <a href="#">
+        <img src="assets/logo.png" alt="Hechoshop Logo" class="h-10">
+      </a>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#" class="dark:text-white hover:text-blue-500 transition">Home</a></li>
+          <li><a href="#features" class="dark:text-white hover:text-blue-500 transition">Features</a></li>
+          <li><a href="#testimonials" class="dark:text-white hover:text-blue-500 transition">Testimonials</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('assets/hero-image.png');">
+    <div class="text-center text-white">
+      <h1 class="text-5xl font-bold">Welcome to Hechoshop</h1>
+      <p class="mt-4 text-lg">Your one-stop shop for custom stickers and cards</p>
+      <a href="#features" class="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded transition">Explore Now</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-16 bg-gray-50">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">Our Features</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="feature-item bg-white p-6 rounded shadow-md hover:shadow-lg transition">
+          <i class="fas fa-sticky-note text-4xl text-blue-500 mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Custom Stickers</h3>
+          <p>Create personalized stickers for branding, events, or personal use.</p>
+        </div>
+        <div class="feature-item bg-white p-6 rounded shadow-md hover:shadow-lg transition">
+          <i class="fas fa-address-card text-4xl text-blue-500 mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Greeting Cards</h3>
+          <p>Design custom cards for special events like weddings, birthdays, and more.</p>
+        </div>
+        <div class="feature-item bg-white p-6 rounded shadow-md hover:shadow-lg transition">
+          <i class="fas fa-paint-brush text-4xl text-blue-500 mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Creative Design</h3>
+          <p>Our team helps bring your ideas to life with creative design services.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-16 bg-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">What Our Customers Say</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="testimonial bg-gray-50 p-6 rounded shadow-md hover:shadow-lg transition">
+          <p class="text-lg italic">"Hechoshop provided amazing custom stickers for our business event. The quality was top-notch!"</p>
+          <p class="mt-4 text-sm text-gray-600">- Sarah, Business Owner</p>
+        </div>
+        <div class="testimonial bg-gray-50 p-6 rounded shadow-md hover:shadow-lg transition">
+          <p class="text-lg italic">"I love the personalized cards from Hechoshop! They were perfect for my wedding invitations."</p>
+          <p class="mt-4 text-sm text-gray-600">- Emily, Bride-to-be</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>Email: hechoshop99@gmail.com - Phone: +62 822-4035-2080</p>
+      <div class="mt-4">
+        <a href="https://instagram.com/hechoshop99" class="hover:text-gray-400 mx-2 transition"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://shopee.co.id/hechoshop" class="hover:text-gray-400 mx-2 transition"><i class="fas fa-store"></i> Shopee</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>

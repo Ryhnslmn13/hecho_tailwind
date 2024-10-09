@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #014250; /* Main text color */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #014250;
+}
+
+.navbar a {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #f7c44b;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #014250;
+  color: white;
+}
+
+.hero h1 {
+  color: #f7c44b; /* Main hero heading in yellow */
+}
+
+.hero p {
+  color: #85b8d4; /* Subheading in light blue */
+}
+
+.hero a {
+  background-color: #f7c44b;
+  color: #014250;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero a:hover {
+  background-color: #014250;
+  color: #f7c44b;
+}
+
+/* Features Section */
+.feature-item {
+  border: 2px solid #85b8d4;
+  background-color: white;
+}
+
+.feature-item h3 {
+  color: #014250;
+}
+
+.feature-item p {
+  color: #014250;
+}
+
+.feature-item i {
+  color: #85b8d4;
+}
+
+/* Testimonials Section */
+.testimonial {
+  border: 1px solid #85b8d4;
+  background-color: #f7c44b;
+  color: #014250;
+}
+
+.testimonial p {
+  color: #014250;
+}
+
+/* Footer */
+.footer {
+  background-color: #014250;
+}
+
+.footer a {
+  color: #f7c44b;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #85b8d4;
+}
